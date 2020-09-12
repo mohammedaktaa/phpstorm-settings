@@ -1,5 +1,9 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="Vcs.ToggleAmendCommitMode" />
 </keymap>
