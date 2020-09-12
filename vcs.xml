@@ -1,5 +1,15 @@
 <application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="http://teljoy.io:8085" />
+          <option name="userName" value="mohammedaktaa1995@gmail.com" />
+        </UrlAndUserName>
+      </list>
+    </option>
+  </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Downloads" />
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
 </application>
