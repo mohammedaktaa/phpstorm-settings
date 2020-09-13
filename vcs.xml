@@ -6,6 +6,10 @@
           <option name="url" value="http://teljoy.io:8085" />
           <option name="userName" value="mohammedaktaa1995@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="mohammedaktaa1995@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
