@@ -5,5 +5,9 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="IlluminatedCloud.SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SaveAll" />
   <action id="Vcs.ToggleAmendCommitMode" />
 </keymap>
