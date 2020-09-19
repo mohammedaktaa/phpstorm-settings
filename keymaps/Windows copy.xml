@@ -9,5 +9,8 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="SaveAll" />
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="Vcs.ToggleAmendCommitMode" />
 </keymap>
