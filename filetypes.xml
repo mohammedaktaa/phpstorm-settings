@@ -1,7 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <removed_mapping ext="app" type="Erlang/OTP app" />
-    </extensionMap>
-  </component>
-</application>
