@@ -5,6 +5,14 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
