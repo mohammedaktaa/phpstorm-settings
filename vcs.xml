@@ -10,6 +10,10 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="mohammedaktaa1995@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git-codecommit.us-east-2.amazonaws.com" />
+          <option name="userName" value="mohammad.aktaa-at-874921639636" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
