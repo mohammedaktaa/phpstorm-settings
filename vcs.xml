@@ -14,6 +14,10 @@
           <option name="url" value="http://git-codecommit.us-east-2.amazonaws.com" />
           <option name="userName" value="mohammad.aktaa-at-874921639636" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="mohammad_aktaa" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
