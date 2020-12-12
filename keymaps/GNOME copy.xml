@@ -5,6 +5,7 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="GotoTest" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -13,8 +14,13 @@
   </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
+  <action id="ServiceView.ShowServices" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Vcs.ToggleAmendCommitMode" />
   <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
