@@ -70,6 +70,11 @@
     <injection language="XML" injector-id="sql" pattern="(?i)xml(type)?">
       <display-name>(?i)xml(type)?</display-name>
     </injection>
+    <injection language="JSON" injector-id="sql">
+      <display-name>ClickHouse JSON</display-name>
+      <place><![CDATA[sqlElement().forDialects("ClickHouse").functionArgument(0, sqlFunctionCall().name("visitParamHas", "visitParamExtractUInt", "visitParamExtractInt", "visitParamExtractFloat", "visitParamExtractBool", "visitParamExtractRaw", "visitParamExtractString").params(sqlExpressions().count(2)))]]></place>
+      <place><![CDATA[sqlElement().forDialects("ClickHouse").insertWithFormatInput("JSON")]]></place>
+    </injection>
     <injection language="XML" injector-id="sql">
       <display-name>Derby XML</display-name>
       <place disabled="true"><![CDATA[sqlElement().forDialects("Derby").functionArgument(0, sqlFunctionCall().name("xmlparse").params(sqlExpressions().count(1)))]]></place>
@@ -98,6 +103,7 @@
     <injection language="RegExp" injector-id="sql">
       <display-name>MySQL RegExp</display-name>
       <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").binaryExpressionArgument(1, sqlBinaryExpression().operation(leafTokens("regexp").or("not", "regexp").or("rlike").or("not", "rlike")))]]></place>
+      <place><![CDATA[sqlElement().forDialects("MySQL").functionArgument(1, sqlFunctionCall().name("regexp_instr", "regexp_like", "regexp_replace", "regexp_substr").params(sqlExpressions().count(2, 6)))]]></place>
     </injection>
     <injection language="XML" injector-id="sql">
       <display-name>MySQL XML</display-name>
