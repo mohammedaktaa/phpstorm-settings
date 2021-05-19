@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="Git.Merge">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
